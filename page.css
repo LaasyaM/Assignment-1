@@ -1,0 +1,137 @@
+.header{
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 50px;
+    background-color: #ce0505;
+    padding-top: 25px;
+    padding-bottom:35px;
+
+}
+.e_background{
+   
+    background-color: white;
+    margin-left: 50px;
+    border-radius: 70%;
+    width:60px;
+    height:60px;
+    float: left;
+}
+#e{
+    color: red;
+    font-size: 50px;
+    font-family: Poppins;
+    text-align: center;
+     margin-left: 9px;
+}
+.header_right{
+    display: inline-flex;
+    float:right;
+}
+.Login{
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+.account_icon{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    margin-right:50px;
+    background-color: #ce0505;
+    border-color:whitesmoke;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+.container {
+    position: relative;
+    font-family: Arial;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .content{
+      margin-top: 50px;
+      display: inline-flex;
+      margin-left: 150px;
+      margin-right: 150px;
+  }
+  .Overview-content{
+      list-style: none;
+      margin-left: 80px;
+  }
+  .Overview-content li{
+      display: inline-block;
+      margin-top: 20px;
+      margin-left: 30px;
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
+  }
+
+ .horizontal{
+    margin-left: 150px;
+    margin-right: 150px;
+ }
+
+.body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.place{
+    color:black;
+    font-weight: bolder;
+    margin-top:20px;
+}
+
+.Cuisine{
+    line-height: 2px;
+    margin-top:30px;
+
+}
+.AverageCost{
+    line-height: 2px;
+    margin-top:40px;
+}
+
+  @media screen and (max-width:600px)
+  {
+    .container{
+        width:90%;
+        margin-left: 30px;
+    }
+    .text-block{
+        position: absolute;
+        bottom: 10px;
+        right:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content{
+        margin-left: 30px;
+    }
+    .body,.horizontal{
+        margin-left: 30px;
+    }
+    .Overview-content{
+        margin-left: -30px;
+    
+    }
+    #alter{
+        font-size: 20px;
+    }
+  }
